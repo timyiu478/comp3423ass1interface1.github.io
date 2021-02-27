@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+        <title>Multiplication Game</title>
+        <meta charset="utf-8">
+        <link rel="icon" href="times_game.png" type="image/gif" sizes="16x16">
+        <link href="game.css" rel="stylesheet">
+        <link href="fontawesome-free-5.15.2-web/fontawesome-free-5.15.2-web/css/all.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  </head>
+  <body>
+    
+    
+         
+        <div id="content">
+
+            <div class="mx-auto col-7" style="text-align: center;">
+                <h1 class="display-6" id="times_table"><span class="eng">Multiplication Table</span></h1>
+                <h1 class="display-6"  style="display: none;" id="n1_x_n2"><strong id="n1">1</strong> X <strong id="n2">2</strong> = <strong id="n1n2_answer"></strong></h1>
+                <p class="lead">
+                    <span class="eng">Try to hover and click different numbers on screen</span>
+                </p>
+ 
+                <table class="table table-dark table-bordered">
+                    <tbody>
+                        <tr>
+                            <th scope="col" class="lead"><i class="fas fa-times fa-lg"></i></th>
+                            <th scope="col" class="lead colnum">1</th>
+                            <th scope="col" class="lead colnum">2</th>
+                            <th scope="col" class="lead colnum">3</th>
+                            <th scope="col" class="lead colnum">4</th>
+                            <th scope="col" class="lead colnum">5</th>
+                            <th scope="col" class="lead colnum">6</th>
+                            <th scope="col" class="lead colnum">7</th>
+                            <th scope="col" class="lead colnum">8</th>
+                            <th scope="col" class="lead colnum">9</th>
+                            <th scope="col" class="lead colnum">10</th>
+                        </tr>
+                        <tr class="table_row lead"><th style="width: 8%;" scope="row">1</th></tr>
+                        <tr class="table_row lead"><th style="width: 8%;" scope="row">2</th></tr>
+                        <tr class="table_row lead"><th style="width: 8%;" scope="row">3</th></tr>
+                        <tr class="table_row lead"><th style="width: 8%;" scope="row">4</th></tr>
+                        <tr class="table_row lead"><th style="width: 8%;" scope="row">5</th></tr>
+                        <tr class="table_row lead"><th style="width: 8%;" scope="row">6</th></tr>
+                        <tr class="table_row lead"><th style="width: 8%;" scope="row">7</th></tr>
+                        <tr class="table_row lead"><th style="width: 8%;" scope="row">8</th></tr>
+                        <tr class="table_row lead"><th style="width: 8%;" scope="row">9</th></tr>
+                        <tr class="table_row lead"><th style="width: 8%;" scope="row">10</th></tr>
+                    </tbody>
+                  
+                </table>
+            </div>
+               
+        </div>
+          
+        
+   
+
+        <script src="game.js"></script>
+        <script src="tutorial.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>   
+    </body>
+
+    
+</html>
